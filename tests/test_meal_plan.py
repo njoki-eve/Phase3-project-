@@ -14,4 +14,4 @@ def test_create_and_get_meal_plan(session):
     fetched_plan = get_meal_plan(created_plan.id, session)
 
     assert fetched_plan.week_number == 22
-    assert fetched_plan.description == "Low-carb"
+    assert fetched_plan.description == "Low-carb" 

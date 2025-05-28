@@ -51,3 +51,4 @@ class GoalModel(Base):
         session.commit()
         print(f"Goal for user {self.user_id} has been deleted successfully!")
         return True
+ 

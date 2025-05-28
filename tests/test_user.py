@@ -7,4 +7,4 @@ def test_create_and_get_user(session):
     fetched_user = get_user(created_user.id, session)
 
     assert fetched_user.name == "Eve"
-    assert fetched_user.id == created_user.id
+    assert fetched_user.id == created_user.id 

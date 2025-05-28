@@ -22,4 +22,4 @@ def test_create_and_get_food_entry(session):
 
     assert fetched_entry.food == "Banana"
     assert fetched_entry.calories == 100
-    assert fetched_entry.user_id == user.id
+    assert fetched_entry.user_id == user.id 

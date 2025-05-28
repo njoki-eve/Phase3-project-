@@ -39,4 +39,4 @@ class UserModel(Base):
         session.delete(self)
         session.commit()
         print(f"User '{self.name}' has been deleted successfully!")
-        return True
+        return True 

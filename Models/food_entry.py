@@ -30,7 +30,7 @@ class FoodEntryModel(Base):
         self.entry_date = entry_date
 
     def __repr__(self):
-        return (f"<FoodEntry(id={self.id}, user_id={self.user_id}, "
+        return (f"<FoodEntry(id={self.id}, user_id={self.user_id}, " 
                 f"food='{self.food}', calories={self.calories}, "
                 f"entry_date={self.entry_date})>")
 
@@ -51,4 +51,4 @@ class FoodEntryModel(Base):
         session.delete(self)
         session.commit()
         print(f"Food entry '{self.food}' has been deleted successfully!")
-        return True
+        return True                        

@@ -51,4 +51,4 @@ class MealPlanModel(Base):
         session.delete(self)
         session.commit()
         print(f"Meal plan for week {self.week_number} has been deleted successfully!")
-        return True
+        return True 

@@ -15,4 +15,4 @@ def test_create_and_get_goal(session):
     fetched_goal = get_goal(created_goal.id, session)
 
     assert fetched_goal.daily_goal == "Read"
-    assert fetched_goal.user_id == user.id
+    assert fetched_goal.user_id == user.id 
