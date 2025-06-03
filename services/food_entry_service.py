@@ -54,4 +54,4 @@ def delete_food_entry(entry_id: int, session: Session):
     entry = session.query(FoodEntryModel).filter(FoodEntryModel.id == entry_id).first()
     if entry:
         return entry.delete(session)
-    return None 
+    return None
